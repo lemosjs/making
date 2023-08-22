@@ -1,0 +1,92 @@
+/*--------------------------------------------------------------
+  ## hero-area
+--------------------------------------------------------------*/
+
+.hero-area{
+ padding-top: 130px;
+ padding-bottom: 30px;
+ @media only screen and (max-width: 991px) {
+  padding-top: 110px;
+ }
+ @media only screen and (max-width: 767px) {
+  padding-top: 90px;
+  padding-bottom: 23px;
+ }
+}
+.hero-text{
+  text-align: center;
+  h1{
+  
+    font-family: $font-title;
+    font-weight: normal;
+    font-size: 95px;
+    position: relative;
+  
+    span{
+      color: black;
+      -webkit-text-fill-color: $bg-black; /* Will override color (regardless of order) */
+      -webkit-text-stroke: 1px $text-color;
+    }
+    @media only screen and (max-width: 1399px) {
+      font-size: 80px;
+    }
+    @media only screen and (max-width: 1199px) {
+      font-size: 70px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 70px;
+    }
+    @media only screen and (max-width: 482px) {
+      font-size: 72px;
+    }
+  }
+
+  p{
+    font-size: 20px;
+    color: $text-color;
+    margin-top: 20px;
+    @media only screen and (max-width: 991px) {
+      font-size: 18px;
+    }
+    @media only screen and (max-width: 767px) {
+      margin-top: 15px;
+      font-size: 16px;
+    }
+  }
+}
+.dots{
+  span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: $bg-white;
+  }
+}
+.hero-gif{
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  max-width: 775px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+.hero-vids{
+  video{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 760px;
+    margin-top: -120px;
+    z-index: -1;
+    position: relative;
+    @media only screen and (max-width: 767px) {
+      margin-top: -90px;
+    }
+    @media only screen and (max-width: 482px) {
+      margin-top: -60px;
+    }
+  }
+}

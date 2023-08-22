@@ -1,0 +1,405 @@
+/*--------------------------------------------------------------
+  ## why
+--------------------------------------------------------------*/
+
+.why {
+  background-color: #111111;
+  padding: 8px 0px;
+  @media only screen and (max-width: 991px) {
+    padding: 8px 0px;
+  }
+  .num {
+    text-align: center;
+    border: 1px solid #333;
+    
+    padding: 15px 0px;
+    h3 {
+      font-family: $font-texts;
+      font-weight: 700;
+      color: $bg-white;
+      font-size: 48px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      @media only screen and (max-width: 1199px) {
+        font-size: 48px;
+      }
+      @media only screen and (max-width: 767px) {
+        font-size: 48px;
+      }
+    }
+    p {
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+  ## develop
+--------------------------------------------------------------*/
+
+.develop {
+  padding: 120px 0px;
+  text-align: center;
+  @media only screen and (max-width: 1399px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 991px) {
+    padding: 80px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 60px 0px;
+  }
+  h5 {
+    font-family: $font-texts;
+    font-size: 30px;
+    font-weight: 700;
+    background-clip: text;
+
+    background: -webkit-linear-gradient(90deg, #ff4d4d, #f9cb28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: 30px;
+    @media only screen and (max-width: 767px) {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+  }
+
+  h1 {
+    font-family: $font-title;
+    font-weight: normal;
+    font-size: 85px;
+    position: relative;
+
+    span {
+      color: black;
+      -webkit-text-fill-color: $bg-black; /* Will override color (regardless of order) */
+      -webkit-text-stroke: 1px $text-color;
+    }
+    @media only screen and (max-width: 1399px) {
+      font-size: 72px;
+    }
+    @media only screen and (max-width: 1199px) {
+      font-size: 70px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 70px;
+    }
+    @media only screen and (max-width: 482px) {
+      font-size: 70px;
+    }
+  }
+  p {
+    font-size: 19px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    @media only screen and (max-width: 1199px) {
+      font-size: 18px;
+    }
+    @media only screen and (max-width: 991px) {
+      margin-top: 17px;
+    }
+    @media only screen and (max-width: 767px) {
+      margin-top: 12px;
+      font-size: 16px;
+    }
+  }
+}
+
+.speec-sec {
+  padding: 120px 0px;
+  @media only screen and (max-width: 1399px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 991px) {
+    padding: 80px 0px;
+    text-align: center;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 60px 0px;
+  }
+}
+.spe-txt {
+  h5 {
+    font-family: $font-texts;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    @media only screen and (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+  .bol {
+    font-size: 18px;
+    color: #d2d0d0;
+    @media only screen and (max-width: 767px) {
+      font-size: 17px;
+    }
+  }
+}
+
+.spe-boxy {
+  margin-bottom: 30px;
+  @media only screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+  .spe-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: #333333;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    svg {
+      max-width: 100%;
+    }
+  }
+  h5 {
+    font-family: $font-texts;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    @media only screen and (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+}
+
+.clip-btn {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #333;
+  border-radius: 50px;
+  padding: 4px 4px;
+  span {
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #fc6d26;
+    color: #111;
+    width: 40px;
+    height: 20px;
+    border-radius: 15px;
+  }
+  p {
+    font-size: 12px;
+    color: $text-color;
+    margin-left: 4px;
+  }
+  transition: all 0.2s ease-in;
+  &:hover {
+    p {
+      color: $bg-white;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+  ## dev
+--------------------------------------------------------------*/
+
+.dev {
+  padding: 120px 0px;
+  @media only screen and (max-width: 1399px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 991px) {
+    padding: 80px 0px;
+    text-align: center;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 60px 0px;
+  }
+}
+.dev-text {
+  text-align: center;
+  h5 {
+    font-family: $font-texts;
+    font-size: 34px;
+    font-weight: 700;
+    background-clip: text;
+    background: -webkit-linear-gradient(90deg, #ff4d4d, #f9cb28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: 18px;
+    @media only screen and (max-width: 767px) {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+  }
+  p {
+    font-size: 20px;
+    color: $bg-white;
+    margin-bottom: 16px;
+    @media only screen and (max-width: 991px) {
+      font-size: 18px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+  }
+  h1 {
+    font-family: $font-title;
+    font-weight: normal;
+    font-size: 95px;
+    text-transform: uppercase;
+
+    span {
+      color: black;
+      -webkit-text-fill-color: $bg-black; /* Will override color (regardless of order) */
+      -webkit-text-stroke: 1px $text-color;
+    }
+    @media only screen and (max-width: 1399px) {
+      font-size: 85px;
+    }
+    @media only screen and (max-width: 1199px) {
+      font-size: 80px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 80px;
+    }
+    @media only screen and (max-width: 482px) {
+      font-size: 80px;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+  ## img-sec
+--------------------------------------------------------------*/
+
+.img-sec {
+  text-align: center;
+  padding: 120px 0px;
+  @media only screen and (max-width: 1399px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 991px) {
+    padding: 80px 0px;
+    text-align: center;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 60px 0px;
+  }
+}
+
+/*--------------------------------------------------------------
+  ## point-s
+--------------------------------------------------------------*/
+
+.point-s {
+  padding: 120px 0px;
+  @media only screen and (max-width: 1399px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 991px) {
+    padding: 80px 0px;
+    text-align: center;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 60px 0px;
+  }
+
+  .spe-boxx {
+    .spe-logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background-color: #333333;
+      border-radius: 6px;
+      margin-bottom: 16px;
+      svg {
+        max-width: 100%;
+      }
+    }
+    h5 {
+      font-family: $font-texts;
+      font-size: 19px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      @media only screen and (max-width: 767px) {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+  ## cta
+--------------------------------------------------------------*/
+
+.cta {
+  padding: 120px 0px;
+  text-align: center;
+  @media only screen and (max-width: 1399px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 991px) {
+    padding: 80px 0px;
+    text-align: center;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 60px 0px;
+  }
+
+  h1 {
+    font-family: $font-title;
+    font-weight: normal;
+    font-size: 130px;
+    text-transform: uppercase;
+    text-align: center;
+    span {
+      color: black;
+      -webkit-text-fill-color: $bg-black; /* Will override color (regardless of order) */
+      -webkit-text-stroke: 1px $text-color;
+    }
+    @media only screen and (max-width: 1399px) {
+      font-size: 110px;
+    }
+    @media only screen and (max-width: 1199px) {
+      font-size: 90px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 85px;
+    }
+    @media only screen and (max-width: 482px) {
+      font-size: 80px;
+    }
+  }
+}
+
+.btn-main {
+  display: inline-block;
+  border: 0;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600px;
+  padding: 7px 24px;
+  border-radius: 7px;
+  transition: all 0.2s ease-in;
+  &:hover {
+    background-color: darken($color: #fff, $amount: 16%);
+    color: #000;
+  }
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
