@@ -31,10 +31,21 @@
 
 	for (var i = 0; i < videos.length; i++) {
 		//Play if page is loaded
-		
+		videos[i].muted = true;
 		videos[i].play();
 	}
+
+	
+
+
 
 
 
 })();
+
+document.body.addEventListener("touchstart", function () {
+    var allVideos = document.querySelectorAll('video');
+    for (var i = 0; i < allVideos.length; i++) {
+        allVideos[i].play();
+    }
+},{ once: true });
